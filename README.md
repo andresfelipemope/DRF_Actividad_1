@@ -14,7 +14,7 @@ Requisitos
 Instalación (Linux / macOS)
 1. Sitúate en el proyecto:
    ```bash
-   cd "/home/pipelinn/Documentos/Programacion/Web Projects/Practicas_Django/Act1"
+   cd "@/Act1"
    ```
 
 2. Crear y activar entorno virtual:
