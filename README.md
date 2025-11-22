@@ -1,5 +1,7 @@
 # Biblioteca API (Django REST Framework)
 
+<p align="center">📚 <strong><a href="./Evidencias%20ACT%201%20-%20DRF.pdf">Evidencias del proyecto (PDF)</a></strong></p>
+
 API para gestionar una biblioteca con autores, libros y reseñas. Permite:
 - Registrar autores.
 - Agregar libros relacionados a un autor.
