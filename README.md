@@ -30,7 +30,7 @@ Instalación (Linux / macOS)
      ```
    - Si no:
      ```bash
-     pip install "Django>=4.2,<5" djangorestframework
+     pip install "Django>=4.2,<5" djangorestframework django-filter
      ```
 
 4. Aplicar migraciones:

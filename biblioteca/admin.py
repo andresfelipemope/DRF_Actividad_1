@@ -10,7 +10,6 @@ class AutorAdmin(admin.ModelAdmin):
     def cantidad_libros(self, obj):
         return obj.libros.count()
 
-
 @admin.register(Libro)
 class LibroAdmin(admin.ModelAdmin):
     list_display = ('titulo', 'autor')
