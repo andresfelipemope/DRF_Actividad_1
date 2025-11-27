@@ -17,7 +17,7 @@ class LibroSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Libro
-        fields = ('titulo', 'autor_name', 'fecha_publicacion', 'resumen', 'recent_views')
+        fields = ('titulo', 'autor', 'autor_name', 'fecha_publicacion', 'resumen', 'recent_views')
 
     def get_recent_views(self, obj) :
         reviews = obj.resenas.order_by('-fecha')[:2]
